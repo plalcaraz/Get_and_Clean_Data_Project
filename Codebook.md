@@ -56,6 +56,6 @@ The features that has been analiyzed are:
 * fBodyGyroJerkMag
 
 From the original set of features, 561, we have just taken the variables: mean() and std(). Following the explanation of the authors the variables begining with t are in the time domain and those beginning with f are in
-the frequency domain, so the units for each are probable "s" and "Hz".
+the frequency domain. The data is normalized and does not have units.
 
 To generate our tidyData set we have calculate for each subject and activity the mean of the selected features.
